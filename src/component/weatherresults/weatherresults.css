@@ -1,0 +1,27 @@
+.current-temp, .current-temp-range {
+    text-align: center;
+    color: #FFF;
+    font-size: 60px;
+}
+
+.current-temp-range{
+    font-size: 40px;
+}
+
+.current-weather-image{
+    text-align: center;
+}
+
+.weather-main, .weather-desc{
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.weather-main{
+    font-size: 40px;
+}
+
+.weather-desc{
+    font-size: 20px;
+}

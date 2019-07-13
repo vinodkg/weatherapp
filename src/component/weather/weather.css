@@ -1,0 +1,47 @@
+.weather-body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)) , url("../../assets/climates/sunny.jpeg");
+}
+
+.input-group {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+input.custom-input {
+    border: 0px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    background: transparent;
+    color: #FFF;
+    border-bottom: 1px solid #DDD;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.btn-outline-secondary {
+    border: 0px;
+    background-image: url("../../assets/images/search.png");
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    width: 40px;
+}
+
+.input-group-append .btn-outline-secondary{
+    border: 0px;
+}
+
+.input-group-append .btn-outline-secondary:hover{
+    background-color: transparent;
+    outline: none;
+}
+
+.input-group-append .btn-outline-secondary:focus{
+    box-shadow: none;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle{
+    background-color: none !important;
+}
