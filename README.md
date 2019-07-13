@@ -1,3 +1,3 @@
-Weather App: 5 Day forcast
+Weather App: Current Temperature
 
 API Provider : https://home.openweathermap.org/
