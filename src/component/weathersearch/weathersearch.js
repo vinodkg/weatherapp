@@ -3,7 +3,7 @@ import WebServices from './../../services/webservices';
 
 export default class WeatherSearch extends React.Component {
 
-    serverUrl = "http://api.openweathermap.org/data/2.5/weather";
+    serverUrl = "https://api.openweathermap.org/data/2.5/weather";
     appId = "5536f021b58776944ade38cabdf28b46";
     units = "metric";
     
